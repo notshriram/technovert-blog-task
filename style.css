@@ -1,35 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     font-family: "Open Sans", sans-serif;
+    
 }
 nav{
     grid-area: navbar;
+    background-color: black;
+    padding-left: 3%;
 }
 html,body{
     margin: 0%;
 }
 .top{
     grid-area: header;
-    background-color: rgb(43,141,194);;
+    background-color: rgb(43,141,194);
+    padding-left: 2%;
 }
 .news-box{
     grid-area: news;
-    border: black;
-    border-width: 1%;
-    border-style: solid;
+    border: 1px solid black;
+    margin: 1%;
+    padding-left: 1%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+.news-box:hover{
+    background-color: rgba(43,141,194,0.5);
+    color: white;
+}
+.news-box>header{
+    font-size: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.news-box>.bullets{
+    padding: 0%;
+    margin: 0%;
+}
+.news-box>.bullets>ul>li{
+    list-style-type: "-";
+    font-size: 50%;
 }
 .blog{
     grid-area: article;
+    margin: 5%;
+    margin-top: 1%;
+    font-size: 50%;
 }
 
 .logo{
-    margin: 5%;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     color: white;
 }
-nav ul li{
-    display: inline-block;
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    align-items: center;
+    flex-flow: wrap;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+}
+nav>ul>li>a:hover{
+    color: rgba(255, 255, 255, 0.7);
 }
 .container{
     height: 100%;
