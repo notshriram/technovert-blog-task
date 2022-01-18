@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(43,141,194);
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+}
