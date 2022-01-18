@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     font-family: "Open Sans", sans-serif;
-    
 }
 nav{
     grid-area: navbar;
-    background-color: black;
+    background-color: rgb(50,50,50);
+    padding: 0.5%;
     padding-left: 3%;
+}
+#blog-icon{
+    background-color: orange;
+    border-radius: 25%;
+    color: white;
+    padding: 25%;
+}
+li:last-of-type {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+}
+header:last-child{
+    justify-content: flex-end;
 }
 html,body{
     margin: 0%;
@@ -18,37 +32,35 @@ html,body{
 }
 .news-box{
     grid-area: news;
-    border: 1px solid black;
-    margin: 1%;
-    padding-left: 1%;
+    border: 1px solid #c5c5c5;
+    margin-top: 2%;
     margin-right: 10%;
     margin-left: 5%;
     margin-bottom: 0%;
+    background-color: #f5f5f5;
+    padding:0%;
 }
 .news-box:hover{
     background-color: rgba(43,141,194,0.5);
     color: white;
 }
 .news-box>header{
-    font-size: 50%;
     text-transform: uppercase;
     font-weight: bold;
+    padding-left: 5%;
 }
 .news-box>.bullets{
     padding: 0%;
     margin: 0%;
 }
 .news-box>.bullets>ul>li{
-    list-style-type: "-";
-    font-size: 50%;
+    list-style-type: "- ";
 }
 .blog{
     grid-area: article;
     margin: 5%;
     margin-top: 1%;
-    font-size: 50%;
 }
-
 .logo{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
