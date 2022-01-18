@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    grid-area: navbar;
+}
+html,body{
+    margin: 0%;
+}
+.top{
+    grid-area: header;
+    background-color: rgb(43,141,194);;
+}
+.news-box{
+    grid-area: news;
+    border: black;
+    border-width: 1%;
+    border-style: solid;
+}
+.blog{
+    grid-area: article;
 }
 
 .logo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5%;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    background-color: rgb(43,141,194);
     color: white;
 }
 nav ul li{
     display: inline-block;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "navbar"
+                         "news"
+                         "article";
 }
