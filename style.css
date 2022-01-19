@@ -8,19 +8,19 @@ nav{
     padding: 0.5%;
     padding-left: 3%;
 }
-#blog-icon{
+.icon {
     background-color: orange;
     border-radius: 25%;
     color: white;
-    padding: 25%;
+    padding: 1%;
+    width: 5%;
+    height: 5%;
+    float: right;
 }
+
 li:last-of-type {
     margin-left: auto;
-    margin-right: 2%;
-    margin-bottom: 0.5%;
-}
-header:last-child{
-    justify-content: flex-end;
+    margin-bottom: 0%;
 }
 html,body{
     margin: 0%;
@@ -71,8 +71,6 @@ nav ul{
     text-decoration: none;
     margin: 0;
     padding: 0;
-}
-nav ul{
     display: flex;
     justify-content: flex-start;
     gap: 2%;
