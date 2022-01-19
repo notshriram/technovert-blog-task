@@ -1,0 +1,32 @@
+{
+  "name": "technovert-blog-task",
+  "version": "1.0.0",
+  "description": "Technovert Frontend Task 1 Shriram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notshriram/technovert-blog-task.git"
+  },
+  "author": "Shriram R",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/notshriram/technovert-blog-task/issues"
+  },
+  "homepage": "https://github.com/notshriram/technovert-blog-task#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "run-sequence": "^2.2.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
