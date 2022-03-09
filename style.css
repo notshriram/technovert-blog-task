@@ -97,3 +97,8 @@ nav>ul>li>a:hover{
                          "news"
                          "article";
 }
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
